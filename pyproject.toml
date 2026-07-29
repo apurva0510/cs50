@@ -1,0 +1,16 @@
+[project]
+name = "cs50-coursework"
+version = "0.1.0"
+description = "Coursework and projects for CS50"
+requires-python = ">=3.12"
+dependencies = [
+    "cs50>=9.4,<10",
+    "flask>=3.1,<4",
+    "flask-session>=0.8,<1",
+    "pytz>=2025.2",
+    "requests>=2.32,<3",
+    "werkzeug>=3.1,<4",
+]
+
+[tool.uv]
+package = false
